@@ -7,23 +7,13 @@ fadeIn  fadeOut  fadeToggle   淡入/淡出
 
 slideDown  slideUp  SlideToggle   滑下/划上
 
-animate  动画   
-
-relative fixed absolute  元素位置
-
-opacity  透明度
-
 +=  -=   相对值
 
 stop  提前停止
 
-callback  回调
-
 html()  text()  val() attr()  内容（包括html标记） 文本内容  表单值  属性值
 
 append  prepend  追加文本/在开头追加文本
-
-after  before   在选定元素后面/前面添加文本
 
 remove  empty   删除选定元素（及子元素）/删除子元素
 
@@ -31,7 +21,7 @@ addclass  removeclass   添加/删除class属性
 
 parent  parents  parentsUntil  父元素/所有父元素/介于之间的父元素
 
-childen  find   直接子元素/被选元素的子元素
+children  find   直接子元素/被选元素的子元素
 
 siblings  next  nextAll  nextUntil 同胞元素/下一个同胞元素/后面所有同胞元素/介于之间的同胞元素
 	   prev  preAll   prevUntil        上一个同胞/上面所有同胞/介于之间的同胞

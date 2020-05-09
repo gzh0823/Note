@@ -1,6 +1,5 @@
 jQuery
 
-
 show   hide   toggle    显示/隐藏
 
 fadeIn  fadeOut  fadeToggle   淡入/淡出
@@ -27,3 +26,5 @@ siblings  next  nextAll  nextUntil 同胞元素/下一个同胞元素/后面所�
 	   prev  preAll   prevUntil        上一个同胞/上面所有同胞/介于之间的同胞
 
 first  last  eq  filter  not   内部第一个/内部最后一个/索引搜索/返回元素/不返回元素
+
+decodeURI(escape()) //解码iso-8859-1=>utf-8

@@ -5,3 +5,13 @@ function bounce(){
     this.search()//执行
   },500)
 }
+
+//渲染html
+render: (h, params) => {
+   return h('span', {
+           domProps: {
+              className:'***',
+              innerHTML:  data
+           }
+      })
+}

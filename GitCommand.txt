@@ -1,3 +1,8 @@
+# 拷贝项目到新仓库
+    git clone --mirror <先有地址>
+    进入目录
+    git remote set-url origin <新地址>
+    git push -f origin
 git init
     # 初始化本地仓库，在当前目录下生成 .git 文件夹
 git clone
